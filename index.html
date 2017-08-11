@@ -1,1 +1,236 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Po-Hsun Su Website</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="style.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+
+
+<!-- Tracking code -->
+<!-- <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3698471-13']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script> -->
+</head>
+
+<body>
+
+<div id="header" class="bg1">
+  <div id="headerblob">
+    <img src="me.jpg" class="img-circle imgme">
+    <div id="headertext">
+      <div id="htname">Po-Hsun (Evan) Su</div>
+      <div id="htdesc">Cornell Computer Science M.Eng student</div>
+      <div id="htem">ps924 _at_ cornell.edu</div>
+      <div id="icons">
+        <!-- <div class="svgico">
+          <a href="https://twitter.com/karpathy"><img src="icons/03-twitter.svg"></a>
+        </div>
+        <div class="svgico">
+          <a href="https://karpathy.github.io"><img src="icons/20-rss.svg"></a>
+        </div> -->
+        <div class="svgico">
+          <a href="https://github.com/Po-Hsun-Su"><img src="icons/octocat.svg" width="56px"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container">
+  <div id="timeline">
+    <div class="timelineitem">
+      <div class="tdate">2016 -</div>
+      <div class="ttitle">Research Scientist at <a href="http://www.wired.com/2016/04/openai-elon-musk-sam-altman-plan-to-set-artificial-intelligence-free/" target="_blank">OpenAI</a></div>
+      <div class="tdesc">Deep Learning, Generative Models, Reinforcement Learning</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">Summer 2015</div>
+      <div class="ttitle">DeepMind Internship</div>
+      <div class="tdesc">Deep Reinforcement Learning group</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">Summer 2013</div>
+      <div class="ttitle">Google Research Internship</div>
+      <div class="tdesc">Large-Scale Supervised Deep Learning for Videos.</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2011 - 2015</div>
+      <div class="ttitle">Stanford Computer Science Ph.D. student</div>
+      <div class="tdesc">Deep Learning, Computer Vision, Natural Language Processing. My adviser was <a href="http://vision.stanford.edu/">Fei-Fei Li.</a></div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">Summer 2011</div>
+      <div class="ttitle">Google Research Internship</div>
+      <div class="tdesc">Large-Scale Unsupervised Deep Learning for Videos.</div>
+    </div>
+    <div class="timelineitem">
+     <div class="tdate">2009-2011</div>
+      <div class="ttitle">University of British Columbia: MSc</div>
+      <div class="tdesc">I worked with <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a> on learning Compositional Controllers for Physically-simulated Figures.</div>
+    </div>
+    <div class="timelineitem">
+      <div class="tdate">2005-2009
+      </div>
+      <div class="ttitle">University of Toronto: BSc</div>
+      <div class="tdesc">Double major in Computer Science and Physics.</div>
+    </div>
+  </div>
+</div> -->
+
+<div class="container" style="font-size:18px; font-weight:300;margin-top:50px;margin-bottom:50px;">
+  <b>Bio</b>. I am a computer science M.Eng. student at Cornell. I love to develop application involving image processing, computer vision and deep learning. My past <a href="#projects">projects</a> include an anti-piracy web application using imperceptable image watermark, a deep reinforcement learning package in torch7 and an implemntation of structural similarity (SSIM) index in pytorch. I am currently working on an affordable human pose capture tool using single webcam.
+  <br><br>
+  Before I came to the US, I received MS and BS degree in electrical engineering from National Taiwan University. I published my MS research about camera raw data image processing on ICIP 2015 and got an internship at himax imageing Inc..
+
+  <br><br>
+  <b>Timeline</b>.
+  <br>
+  <span class="t2when"> 2017-2018:</span>
+  <span class="t2who">Cornell Computer Science M.Eng. student</span>
+  <span class="t2what"></span>
+
+  <br>
+  <span class="t2when">Since 2017:</span>
+  <span class="t2who">Founder of <a href="https://patreonmarker.com">PatreonMarker</a></span>
+  <span class="t2what">An anti-piracy web tool for creators on <a href="https://www.patreon.com">Patreon</a>. </span>
+
+  <br>
+  <span class="t2when">2016-2017:</span>
+  <span class="t2who">Compulsory Military service</span>
+  <span class="t2what"></span>
+
+  <br>
+  <span class="t2when">Winter 2016:</span>
+  <span class="t2who">Acadamic Sinica Research Assistance</span>
+  <span class="t2what">Learning camera autofocus with reinforcement learning. Adviser: Yu-Chiang Frank Wang.</span>
+
+  <br>
+  <span class="t2when">Summer 2015:</span>
+  <span class="t2who">Himax Imaging Inc. Internship</span>
+  <span class="t2what">Image processing algorithm for RGB-Infrared cameras to improve iris recognition</span>
+
+  <br>
+  <span class="t2when">2013-2015:</span>
+  <span class="t2who">National Taiwan University: MS</span>
+  <span class="t2what">Compensation of Spectral Mismatch to Enhance WRGB Demosaicking. Adviser: <a href="http://www.ee.ntu.edu.tw/profile?id=60">Homer H. Chen</a></span>
+
+  <br>
+  <span class="t2when">2009-2013:</span>
+  <span class="t2who">National Taiwan University: BS</span>
+  <span class="t2what">Electrical Engineering. Ranking: 43/204</span>
+
+  <!-- <br><br>
+  <b>News</b>.
+  <br>June 2017: I joined Tesla as the Director of AI. (<a href="https://techcrunch.com/2017/06/20/tesla-hires-deep-learning-expert-andrej-karpathy-to-lead-autopilot-vision/">TechCrunch article</a>)
+  <br>June 2017: Gave a talk on "Where will AGI come from?" <a href="http://bit.ly/2r54rfe">(slides)</a>
+  <br>Feb 2017: Joined the steering committee of <a href="http://distill.pub/about/">distill.pub</a>!
+  <br>Jan 2017: Chatted with <a href="https://nathanbenaich.github.io/">Nathan Benaich</a> at REWORK. (<a href="http://videos.re-work.co/videos/344-interview-with-andrej-karpathy-openai">video</a>)
+  <br>Dec 2016: Started a <a href="https://medium.com/@karpathy">Medium blog</a> for smaller/shorter blog posts, in addition to my <a href="https://karpathy.github.io/">usual one</a>. -->
+
+</div>
+
+<hr class="soft">
+
+<div class="container">
+  <div id="projects">
+  <h2>Projects</h2>
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="pp">
+        <a href="https://patreonmarker.com">
+          <img src="img/patreonmarker.png" class="imgb">
+        </a>
+        <div class="ppt">PatreonMarker</div>
+        <div class="ppd">
+          <a href="https://patreonmarker.com">PatreonMarker</a> is an anti-piracy file hosting service for creators at <a href="https://www.patreon.com">Patreon</a>. It sends each downloader a unique watermarked content so that when a downloader redistribute his content, the creator can identify him with the content.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="pp">
+        <a href="https://github.com/Po-Hsun-Su/dprl">
+        <img src="img/dprl.png" class="imgb">
+        </a>
+        <div class="ppt">dprl: deep reinforcement learning in torch7</div>
+        <div class="ppd">
+          <a href="https://github.com/Po-Hsun-Su/dprl">dprl</a> is a user-friendly deep reinforcement learning package for torch7. It contains implementation of Google Deepmind's state-of-the-art algorithms: deep Q-learning, double deep Q-learning and asynchronous advanatage actor critic.
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="pp">
+        <a href="https://github.com/Po-Hsun-Su/pytorch-ssim">
+          <img src="https://raw.githubusercontent.com/Po-Hsun-Su/pytorch-ssim/master/max_ssim.gif" width="400px" class="imgb">
+        </a>
+        <div class="ppt">Pytorch SSIM</div>
+        <div class="ppd">
+          <a href="https://github.com/Po-Hsun-Su/pytorch-ssim">pytorch-ssim</a> is a pytorch implementation of the well-known <a href="http://www.cns.nyu.edu/~lcv/ssim/">Structural similarity (SSIM)</a> index. With pytorch's powerful automatic differentiation, we can now develop algorithm that optimize SSIM instead of mean suqare error. The gif image shows the process of optimizing a noise image to the original image.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+<hr class="soft">
+
+<div class="container">
+  <h2>Publication</h2>
+  <div id="pubs">
+
+    <div class="pubwrap">
+      <div class="pubd" style="display:inline-block">Compensation of Spectral Mismatch to Enhance WRGB Demosaicking,</div>
+      <div class="puba" style="display:inline-block">Po-Hsun Su, Po-Chang Chen, and Homer H. Chen</div>
+      <div class="pubv" style="display:inline-block">ICIP 2015</div>
+    </div>
+
+    <!-- <div class="pubwrap">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pubimg">
+            <img src="densecap.png">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="pub">
+            <div class="pubt">DenseCap: Fully Convolutional Localization Networks for Dense Captioning</div>
+            <div class="pubd">Efficiently identify and caption all the things in an image with a single forward pass of a network. Our model is fully differentiable and trained end-to-end without any pipelines. The model is also very efficient (processes a 720x600 image in only 240ms), and evaluation on a large-scale dataset of 94,000 images and 4,100,000 region captions shows that it outperforms baselines based on previous approaches.</div>
+            <div class="puba">Justin Johnson*, Andrej Karpathy*, Li Fei-Fei</div>
+            <div class="pubv">CVPR 2016 (Oral)</div>
+            <div class="publ">
+              <ul>
+                <li><a href="densecap">Project</a></li>
+                <li><a href="densecap.pdf">PDF</a></li>
+                <li><a href="https://github.com/jcjohnson/densecap">Code (Github)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <img src="densecap_more.jpg" style="max-width:100%; margin-top:30px;">
+      </div>
+    </div> -->
+
+
+<!-- place js at end for faster loading -->
+<script src="jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
